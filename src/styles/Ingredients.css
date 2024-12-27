@@ -1,0 +1,135 @@
+.ingredients-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .ingredients-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ingredient-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .category {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .ingredient-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .ingredient-button {
+    padding: 8px 16px;
+    background-color: #d3732f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .ingredient-button:hover {
+    background-color: #e09e7c;
+  }
+  
+  .selected-ingredients {
+    margin: 20px 0;
+  }
+  
+  .ingredient-tag {
+    display: inline-block;
+    background-color: #f8f9fa;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .ingredient-tag button {
+    margin-left: 10px;
+    font-size: 0.9rem;
+    background-color: transparent;
+    border: none;
+    color: #d9534f;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .find-recipes button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .find-recipes button:hover {
+    background-color: #ff7f50;
+  }
+  
+  .recipes-list {
+    margin-top: 30px;
+  }
+  
+  .recipe-card {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .recipe-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .recipe-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .btn-view {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #cd8538;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-view:hover {
+    background-color: #d9ab37;
+  }
+  

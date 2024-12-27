@@ -1,0 +1,51 @@
+/* Container for the browse page */
+.browse {
+    padding: 20px;
+  }
+  
+  /* Heading for the browse page */
+  .browse h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Recipe grid that holds recipe cards */
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Styling for the search bar */
+  .search-bar {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Input field for search */
+  .search-bar input {
+    width: 50%;
+    padding: 10px 35px 10px 15px; /* Extra space on the left for the icon */
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Search icon inside the search bar */
+  .search-bar input::placeholder {
+    color: #888; /* Placeholder text color */
+  }
+  
+  /* Search icon style */
+  .search-bar i {
+    position: absolute;
+    left: 880px; /* Adjust the position of the icon inside the input */
+    top: 50%;
+    transform: translateY(-50%); /* Centers the icon vertically */
+    color: #888; /* Icon color */
+    font-size: 18px;
+  }
+  

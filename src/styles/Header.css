@@ -1,0 +1,51 @@
+/* Custom styling for header container */
+.custom-navbar {
+    background-color: #FFA500 !important; /* Orange background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    color: #fff !important; /* Force white text for the navbar */
+  }
+  
+  /* Logo styling */
+  .custom-navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff !important; /* Make sure the logo text is white */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-navbar .navbar-brand:hover {
+    color: #ae815a !important; /* Color on hover */
+  }
+  
+  /* Navbar links container */
+  .custom-navbar .navbar-nav .nav-link {
+    color: #fff !important; /* Ensure navbar links are white */
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-navbar .navbar-nav .nav-link:hover {
+    background-color: #f19171 !important; /* Blue on hover */
+    color: #fff !important; /* Keep text white on hover */
+  }
+  
+  .custom-navbar .navbar-nav .nav-link.active {
+    background-color: #f5ac5f !important; /* Active link background */
+    color: #fff !important; /* Active link text color */
+    font-weight: bold; /* Bold text for active link */
+  }
+  
+  /* Navbar specific adjustments */
+  .custom-navbar .navbar-toggler {
+    border-color: #fff !important; /* Make sure the toggle button is visible */
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    background-color: #fff !important; /* Color of the hamburger menu icon */
+  }
+  

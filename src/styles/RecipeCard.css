@@ -1,0 +1,57 @@
+.recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .recipe-card h5 {
+    font-size: 1.0rem;
+    margin: 8px 0;
+    color: rgb(230, 117, 37);
+    font-weight: bold;
+  }
+  .recipe-card p{
+    color: #f10818;
+    font-weight: bold;
+  }
+  .recipe-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe-card button {
+    margin-top: 12px;
+  }
+  .recipe-card button {
+    margin-top: 12px;
+    padding: 10px 20px; /* Added padding for better size */
+    background-color: #b5782d; /* Primary button color */
+    color: white; /* Text color */
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+    font-weight: bold;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.recipe-card button:hover {
+    background-color: #e9c068; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.recipe-card button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(220, 108, 39, 0.5) !; /* Focus effect */
+}

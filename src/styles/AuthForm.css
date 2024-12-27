@@ -1,0 +1,120 @@
+/* Style for the AuthForm container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../assets/images/login-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); /* Dark overlay for better contrast */
+    border-radius: 8px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  .auth-container h2 {
+    font-size: 2.0rem; /* Larger size for emphasis */
+    color: #ddccad;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* New font family */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Stronger text shadow for better readability */
+    letter-spacing: 2px; /* More space between letters for a modern look */
+    font-weight: 600; /* Slightly bolder for emphasis */
+    line-height: 1.3;
+}
+
+  
+  /* Form Styling */
+  .auth-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: transparent;
+  }
+  
+  /* Form Labels */
+  .auth-container form label {
+    display: block;
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #fe980a;
+    margin-bottom: 8px;
+    font-weight: 600; /* Increased font weight for clarity */
+    text-transform: uppercase;
+    letter-spacing: 1px; /* More spacing between letters for legibility */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Light shadow for better visibility */
+  }
+  
+  /* Form Inputs */
+  .auth-container form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem; /* Slightly larger input text */
+    outline: none;
+    transition: all 0.3s ease;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for inputs */
+  }
+  
+  .auth-container form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    color: #333;
+    background-color: #fff; /* Clear background when focused */
+  }
+  
+  /* Submit Button */
+  .auth-container form button {
+    width: 100%;
+    padding: 12px; /* Increased padding for better button size */
+    background-color: #dd9c19;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem; /* Adjusted font size */
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease; /* More subtle hover effect */
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600; /* Bold text for better readability */
+  }
+  
+  .auth-container form button:hover {
+    background-color: #d09c3c;
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
+  /* Paragraph below the form */
+  .auth-container p {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.1rem; /* Slightly larger font size for better readability */
+    line-height: 1.6; /* Increased line height for clarity */
+    letter-spacing: 0.5px;
+  }
+  
+  /* Span for toggling between Login/Register */
+  .auth-container span {
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+    font-size: 1.1rem; /* Larger font size for better clarity */
+  }
+  
+  .auth-container span:hover {
+    color: #0056b3;
+  }
+  

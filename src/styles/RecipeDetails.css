@@ -1,0 +1,110 @@
+.recipe-details {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 16px;
+    text-align: left;
+    background: #ffffff; /* Brighter background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; /* Clean and professional font */
+    line-height: 1.6;
+  }
+  
+  .recipe-details img {
+    width: 100%;
+    max-width: 400px; /* Maximum width of the image */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Softens corners */
+    margin: 16px auto; /* Centers the image with spacing */
+    display: block; /* Centers the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Smooth animation for effects */
+  }
+  
+  .recipe-details img:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover */
+    filter: brightness(0.9); /* Slightly brightens the image */
+  }
+  
+  .recipe-details h1 {
+    font-size: 2.4rem; /* Larger and more prominent */
+    margin-bottom: 16px;
+    color: #2c3e50; /* Darker color for better focus */
+    font-weight: bold; /* Emphasizes the main title */
+    text-align: center; /* Centers the title */
+  }
+  
+  .recipe-details p {
+    font-size: 1.1rem; /* Slightly larger for readability */
+    line-height: 1.8; /* More spacing for easier reading */
+    color: #555; /* Softer contrast to reduce strain */
+    margin-bottom: 16px;
+  }
+  
+  .recipe-details ul {
+    list-style-type: circle; /* Changes bullet style */
+    padding-left: 20px;
+    margin-bottom: 16px;
+    font-size: 1rem; /* Consistent size for the list */
+    color: #444;
+  }
+  
+  .recipe-details ul li {
+    margin-bottom: 8px;
+    font-size: 1.1rem; /* Larger for clarity */
+    color: #34495e; /* Slightly darker for emphasis */
+  }
+  
+  .recipe-details h3 {
+    font-size: 1.8rem; /* Slightly larger subtitle */
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: #2c3e50; /* Consistent with title */
+    font-weight: 600; /* Medium emphasis */
+  }
+  
+  .recipe-details a {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 12px 24px; /* Larger button for better usability */
+    text-decoration: none;
+    background-color: #a76c28; /* Green for action buttons */
+    color: #fff;
+    font-size: 1.1rem; /* Slightly larger text */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .recipe-details a:hover {
+    background-color: #eead62; /* Darker green on hover */
+  }
+  
+  .recipe-details .recipe-meta {
+    font-size: 0.9rem; /* Smaller for metadata */
+    color: #888; /* Lighter text for less emphasis */
+    margin-top: 8px;
+    font-style: italic;
+  }
+  /* src/styles/RecipeDetails.css */
+
+.favorite-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  
+  .favorite-icon span {
+    margin-right: 8px;
+    font-size: 1.5rem;
+  }
+  
+  .heart-filled {
+    color: red;
+  }
+  
+  .heart-empty {
+    color: gray;
+  }
+  

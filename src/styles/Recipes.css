@@ -1,0 +1,25 @@
+.recipe-card {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.recipe-card img {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.recipe-card .card-body {
+  padding: 15px;
+}
+
+.recipe-card .btn {
+  background-color: #e48016;
+  color: #fff;
+}
+
+.recipe-card .btn:hover {
+  background-color: #c93c20;
+}

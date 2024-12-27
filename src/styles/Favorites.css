@@ -1,0 +1,49 @@
+.favorites {
+  padding: 20px;
+}
+
+.favorites h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e86514;
+  font-family: Cambria, Cochin;
+  font-weight: bold;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.favorites p {
+  font-size: 1.2rem;
+  color: #666;
+}
+.favorites {
+  padding: 20px;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.recipe-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
